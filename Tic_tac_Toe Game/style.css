@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(44, 98, 80);
+    text-align: center;
+}
+
+/* Heading */
+#hed{ 
+    color: rgb(239, 234, 78);
+    font-size: 8vmin;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Game div container*/
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* boxes container*/
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    align-items: center;
+    font-size: 12vmin;
+    border-radius: 10px;
+    color: brown;
+    background-color: blanchedalmond;
+}
+/* reset button */
+.reset{
+   margin: 15px;
+   padding: 15px;
+   background-color: rgb(18, 23, 13);
+   font-size: 15px;
+   border-radius: 10px;
+   color: aliceblue;
+}
+/* new game button */
+.new{
+    margin: 15px;
+   padding: 15px;
+   background-color: rgb(94, 226, 182);
+   font-size: 15px;
+   border-radius: 10px;
+   margin-bottom: 50px;
+}
+/* winner msg */
+#msg{
+    color: rgb(239, 234, 228);
+    font-size: 8vmin;
+}
+/* winner msg hide when game starts */
+.hide{
+    display: none;
+}
